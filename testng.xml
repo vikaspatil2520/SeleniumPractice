@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.tenstng.DependsOnMethodsDemo"/>
+      <class name="com.tenstng.TestNGBasics"/>
+      <class name="com.tenstng.GoogleTest"/>
+      <class name="com.tenstng.AssertDemoTest"/>
+      <class name="com.tenstng.ExpectedExceptionDemo"/>
+      <class name="com.tenstng.InvocationTimeout"/>
+      <class name="com.tenstng.InvocationCount"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
