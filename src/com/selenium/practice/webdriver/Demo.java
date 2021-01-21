@@ -3,8 +3,10 @@ package com.selenium.practice.webdriver;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Demo {
@@ -18,11 +20,11 @@ public class Demo {
 		driver.get("http://cookbook.seleniumacademy.com/html5video.html");
 		
 		 // Get the HTML5 Video Element
-	   // WebElement videoPlayer = driver.findElement(By.id("vplayer"));
+	   WebElement videoPlayer = driver.findElement(By.id("vplayer"));
 	    
 	    JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 	    
-	    jsExecutor.executeScript("driver.findElement(By.id(\"vplayer\").play()");
+	    jsExecutor.executeScript("driver.findElement(By.id(\"vplayer\")).play()",videoPlayer);
 /*
 	    // We will need a JavaScript Executor for interacting with Video
 	    // Element's methods and properties for automation

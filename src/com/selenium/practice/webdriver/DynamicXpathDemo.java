@@ -20,10 +20,10 @@ public class DynamicXpathDemo {
 		driver.get("https://www.facebook.com/");
 		
 	//	driver.findElement(By.xpath("//input[@id='gh-ac']")).sendKeys("mobile");
-		driver.findElement(By.xpath("//input[contains(@id,'gh-ac')]")).sendKeys("mobile");
+	//	driver.findElement(By.xpath("//input[contains(@id,'gh-ac')]")).sendKeys("mobile");
 		
-	//	driver.findElement(By.xpath("//input[@id='gh-btn']")).click();
-		driver.findElement(By.xpath("//input[starts-with(@id,'gh-btn')]")).click();
+		//driver.findElement(By.xpath("//button[@id='u_0_b']")).click();
+	//	driver.findElement(By.xpath("//input[starts-with(@id,'gh-btn')]")).click();
 		
 		
 	//find number of links

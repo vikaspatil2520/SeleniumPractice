@@ -2,14 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name="url" value="https://login.yahoo.com/"></parameter>
+  <parameter name="username" value="naveenk"></parameter>
     <classes>
-      <class name="com.tenstng.DependsOnMethodsDemo"/>
+      <class name="com.tenstng.ParmeterTest"/>
+     <!--  <class name="com.tenstng.DependsOnMethodsDemo"/>
       <class name="com.tenstng.TestNGBasics"/>
       <class name="com.tenstng.GoogleTest"/>
       <class name="com.tenstng.AssertDemoTest"/>
       <class name="com.tenstng.ExpectedExceptionDemo"/>
       <class name="com.tenstng.InvocationTimeout"/>
-      <class name="com.tenstng.InvocationCount"/>
+      <class name="com.tenstng.InvocationCount"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

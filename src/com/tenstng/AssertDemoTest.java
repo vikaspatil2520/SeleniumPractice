@@ -39,6 +39,7 @@ public class AssertDemoTest {
 	
 	@AfterMethod
 	public void teardown() {
+		System.out.println("After method called");
 		driver.close();
 	}
 }

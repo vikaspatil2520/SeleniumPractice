@@ -17,9 +17,15 @@ public class BrowserWindowPopup {
 		driver.manage().deleteAllCookies();
 	
 		
-		driver.get("http://www.popuptest.com/goodpopups.html");
+		//driver.get("http://www.popuptest.com/goodpopups.html");
 
-		driver.findElement(By.linkText("Good PopUp #3")).click();
+		driver.get("https://www.seleniumeasy.com/test/window-popup-modal-demo.html");
+		
+		
+		//driver.findElement(By.linkText("Good PopUp #3")).click();
+		
+		driver.findElement(By.cssSelector("a[title='Follow @seleniumeasy on Twitter']")).click();
+		
 		
 		/*
 		System.out.println("Set of open windows are:");
@@ -38,6 +44,7 @@ public class BrowserWindowPopup {
 		
 		//switch from parent window to child window
 		driver.switchTo().window(childWindowId);
+		driver.findElement(By.cssSelector("input[name='session[username_or_email]']")).sendKeys("1234567890");
 		System.out.println("child window title:"+driver.getTitle());
 		driver.close();
 		
@@ -45,6 +52,7 @@ public class BrowserWindowPopup {
 		driver.switchTo().window(parentWindowId);
 		System.out.println("parent window title:"+driver.getTitle());
 		
+		driver.close();
 		
 	}
 

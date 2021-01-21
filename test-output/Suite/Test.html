@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 14 21:17:13 IST 2020</td>
+<td>Started on:</td><td>Sun Nov 22 17:20:44 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14324 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12900 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,87 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.tenstng.AssertDemoTest.googleTitleTest()'><b>googleTitleTest</b><br>Test class: com.tenstng.AssertDemoTest</td>
-<td><div><pre>java.lang.AssertionError: title is not correct expected [google] but found [Google]
-	at com.tenstng.AssertDemoTest.googleTitleTest(AssertDemoTest.java:30)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace153646652", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace153646652'><pre>java.lang.AssertionError: title is not correct expected [google] but found [Google]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at com.tenstng.AssertDemoTest.googleTitleTest(AssertDemoTest.java:30)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.tenstng.AssertDemoTest@86be70a</td></tr>
-<tr>
-<td title='com.tenstng.InvocationTimeout.timeoutTest()'><b>timeoutTest</b><br>Test class: com.tenstng.InvocationTimeout</td>
-<td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method com.tenstng.InvocationTimeout.timeoutTest() didn&apos;t finish within the time-out 5
-	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
-	at java.io.PrintStream.newLine(PrintStream.java:546)
-	at java.io.PrintStream.println(PrintStream.java:737)
-	at com.tenstng.InvocationTimeout.timeoutTest(InvocationTimeout.java:10)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace859236022", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace859236022'><pre>org.testng.internal.thread.ThreadTimeoutException: Method com.tenstng.InvocationTimeout.timeoutTest() didn&apos;t finish within the time-out 5
-	at java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
-	at java.io.PrintStream.newLine(PrintStream.java:546)
-	at java.io.PrintStream.println(PrintStream.java:737)
-	at com.tenstng.InvocationTimeout.timeoutTest(InvocationTimeout.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:40)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-</pre></div></td>
-<td>0</td>
-<td>com.tenstng.InvocationTimeout@2a556333</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -156,106 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.tenstng.TestNGBasics.logoTest()'><b>logoTest</b><br>Test class: com.tenstng.TestNGBasics</td>
+<td title='com.tenstng.ParmeterTest.yahooTest()'><b>yahooTest</b><br>Test class: com.tenstng.ParmeterTest<br>Parameters: https://login.yahoo.com/, naveenk</td>
 <td></td>
-<td>0</td>
-<td>com.tenstng.TestNGBasics@80503</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.InvocationCount.sum()'><b>sum</b><br>Test class: com.tenstng.InvocationCount</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.InvocationCount@7d70d1b1</td></tr>
-<tr>
-<td title='com.tenstng.ExpectedExceptionDemo.test()'><b>test</b><br>Test class: com.tenstng.ExpectedExceptionDemo</td>
-<td><div><pre>java.lang.NumberFormatException: For input string: &quot;100X&quot;
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.tenstng.ExpectedExceptionDemo.test(ExpectedExceptionDemo.java:10)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1124162665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1124162665'><pre>java.lang.NumberFormatException: For input string: &quot;100X&quot;
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at com.tenstng.ExpectedExceptionDemo.test(ExpectedExceptionDemo.java:10)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>com.tenstng.ExpectedExceptionDemo@480bdb19</td></tr>
-<tr>
-<td title='com.tenstng.TestNGBasics.titleTest()'><b>titleTest</b><br>Test class: com.tenstng.TestNGBasics</td>
-<td></td>
-<td>0</td>
-<td>com.tenstng.TestNGBasics@80503</td></tr>
+<td>12</td>
+<td>com.tenstng.ParmeterTest@1877ab81</td></tr>
 </table><p>
 </body>
 </html>
